@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.0 (wsit240-7e98ff4; 2017-08-03T21:19:54+0200) JAXWS-RI/2.3.0 JAXWS-API/2.3.0 JAXB-RI/2.3.0 JAXB-API/2.3.0 svn-revision#unknown. --><xs:schema xmlns:tns="http://sv/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://sv/">
+
+<xs:element name="diccionario" type="tns:diccionario"/>
+
+<xs:element name="diccionarioResponse" type="tns:diccionarioResponse"/>
+
+<xs:element name="hello" type="tns:hello"/>
+
+<xs:element name="helloResponse" type="tns:helloResponse"/>
+
+<xs:element name="login" type="tns:login"/>
+
+<xs:element name="loginResponse" type="tns:loginResponse"/>
+
+<xs:element name="multiplicacion" type="tns:multiplicacion"/>
+
+<xs:element name="multiplicacionResponse" type="tns:multiplicacionResponse"/>
+
+<xs:element name="par_impar" type="tns:par_impar"/>
+
+<xs:element name="par_imparResponse" type="tns:par_imparResponse"/>
+
+<xs:element name="potencia" type="tns:potencia"/>
+
+<xs:element name="potenciaResponse" type="tns:potenciaResponse"/>
+
+<xs:element name="resta" type="tns:resta"/>
+
+<xs:element name="restaResponse" type="tns:restaResponse"/>
+
+<xs:element name="suma" type="tns:suma"/>
+
+<xs:element name="sumaResponse" type="tns:sumaResponse"/>
+
+<xs:element name="valorResultado" type="tns:valorResultado"/>
+
+<xs:element name="valorResultadoResponse" type="tns:valorResultadoResponse"/>
+
+<xs:complexType name="valorResultado">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="valorResultadoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="potencia">
+<xs:sequence>
+<xs:element name="base" type="xs:double"/>
+<xs:element name="exponente" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="potenciaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="multiplicacion">
+<xs:sequence>
+<xs:element name="Num1" type="xs:double"/>
+<xs:element name="Num2" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="multiplicacionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="suma">
+<xs:sequence>
+<xs:element name="Num1" type="xs:double"/>
+<xs:element name="Num2" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sumaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="login">
+<xs:sequence>
+<xs:element name="user" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="loginResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="par_impar">
+<xs:sequence>
+<xs:element name="numero" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="par_imparResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="diccionario">
+<xs:sequence>
+<xs:element name="palabra" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="diccionarioResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hello">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="resta">
+<xs:sequence>
+<xs:element name="Num1" type="xs:double"/>
+<xs:element name="Num2" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="restaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

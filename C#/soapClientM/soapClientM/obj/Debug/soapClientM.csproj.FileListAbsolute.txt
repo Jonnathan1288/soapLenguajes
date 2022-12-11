@@ -1,0 +1,8 @@
+C:\Users\DELL\Desktop\SOAP\C#\soapClientM\soapClientM\bin\Debug\soapClientM.exe.config
+C:\Users\DELL\Desktop\SOAP\C#\soapClientM\soapClientM\bin\Debug\soapClientM.exe
+C:\Users\DELL\Desktop\SOAP\C#\soapClientM\soapClientM\bin\Debug\soapClientM.pdb
+C:\Users\DELL\Desktop\SOAP\C#\soapClientM\soapClientM\obj\Debug\soapClientM.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\SOAP\C#\soapClientM\soapClientM\obj\Debug\soapClientM.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Desktop\SOAP\C#\soapClientM\soapClientM\obj\Debug\soapClientM.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\SOAP\C#\soapClientM\soapClientM\obj\Debug\soapClientM.exe
+C:\Users\DELL\Desktop\SOAP\C#\soapClientM\soapClientM\obj\Debug\soapClientM.pdb
